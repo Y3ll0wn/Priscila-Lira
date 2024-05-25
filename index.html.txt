@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas de Bolo de Pote</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff69b4;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        nav a {
+            color: #ff69b4;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #ff69b4;
+            color: #fff;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .products, .contact {
+            margin: 20px 0;
+        }
+        .products img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border: 1px solid #ddd;
+            margin: 10px;
+        }
+        footer {
+            background-color: #ff69b4;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bolos de Pote Deliciosos</h1>
+    </header>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#products">Produtos</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div id="home" class="container">
+        <h2>Bem-vindo à nossa loja de bolos de pote!</h2>
+        <p>Oferecemos bolos de pote deliciosos, feitos com ingredientes de alta qualidade. Experimente nossos sabores e se delicie!</p>
+    </div>
+    <div id="about" class="about container">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por confeitaria e dedicamos nosso tempo para criar os melhores bolos de pote para você. Nossa missão é adoçar seu dia com nossos produtos deliciosos e de qualidade.</p>
+    </div>
+    <div id="products" class="products container">
+        <h2>Produtos</h2>
+        <div>
+            <h3>Bolo de Chocolate</h3>
+            <img src="https://via.placeholder.com/300" alt="Bolo de Chocolate">
+            <p>Um clássico irresistível com camadas de chocolate cremoso.</p>
+        </div>
+        <div>
+            <h3>Bolo de Morango</h3>
+            <img src="https://via.placeholder.com/300" alt="Bolo de Morango">
+            <p>Fresco e delicioso, com pedaços de morango e chantilly.</p>
+        </div>
+        <div>
+            <h3>Bolo de Limão</h3>
+            <img src="https://via.placeholder.com/300" alt="Bolo de Limão">
+            <p>Refrescante e saboroso, perfeito para os dias quentes.</p>
+        </div>
+    </div>
+    <div id="contact" class="contact container">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para fazer seu pedido ou tirar suas dúvidas.</p>
+        <form>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bolos de Pote Deliciosos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
